@@ -10,7 +10,6 @@
             margin: 0;
             background: url('eye.jpg');
             background-size: 1440px 800px;
-            display: compact;
         }
     </style>
 </head>
@@ -25,7 +24,8 @@
             </div>
 
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ action('PagesController@welcome') }}">Home</a></li>
+                    <li><a href="{{ action('PagesController@home') }}">Home</a></li>
+                    <li><a href="{{ action('PagesController@about') }}">About</a></li>
                     @if (Auth::check() and Auth::user()->is_admin)
                         <li><a href="{{ action('LocationsController@index') }}">Locations</a></li>
                         <li><a href="{{ action('ExperimentsController@index') }}">Experiments</a></li>

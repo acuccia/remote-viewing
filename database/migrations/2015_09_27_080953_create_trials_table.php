@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateExperimentsTable extends Migration
+class CreateTrialsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,20 +12,15 @@ class CreateExperimentsTable extends Migration
      */
     public function up()
     {
-        Schema::create('experiments', function (Blueprint $table) {
-            $table->increments('id');
-            $table->date('start_date');
-            $table->timestamps();
-        });
-
-        // pivot table for decoys
-        Schema::create('decoys', function (Blueprint $table) {
+        Schema::create('trials', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('experiment_id');
-            $table->integer('location_id');
+            $table->integer('user_id');
+            $table->boolean('received_coordinates')->default(false);
+            $table->boolean('received_choices')->default(false);
+            $table->boolean('complete')->default(false);
             $table->timestamps();
         });
-
     }
 
     /**
@@ -35,7 +30,6 @@ class CreateExperimentsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('decoys');
-        Schema::drop('experiments');
+        Schema::drop('trials');
     }
 }

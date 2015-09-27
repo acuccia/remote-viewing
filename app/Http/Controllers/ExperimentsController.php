@@ -40,27 +40,8 @@ class ExperimentsController extends Controller
         if ($free < 5) {
             return redirect('/locations');
         }
-        $location = $this->pickLocationAsTarget();
+        $location = Location::pickUnused(1);
         return view('experiments.create', compact('location', 'free'));
-    }
-
-    private function pickLocationAsTarget()
-    {
-        // choose 1 of the available locations as a target
-
-        // returns a location object instead of a collection when you
-        // pick only 1
-        $loc = $this->pickUnusedLocations(1);
-        return $loc;
-    }
-
-    private function pickUnusedLocations($amount = 1)
-    {
-        $used = array_keys(Location::has('targets')->get()->keyBy('id')->toArray());
-        $used = array_merge($used, array_keys(Location::has('experiments')->get()->keyBy('id')->toArray()));
-        $available = Location::whereNotIn('id', $used)->get();
-        $locations = $available->random($amount);
-        return $locations;
     }
 
     /**
@@ -71,22 +52,16 @@ class ExperimentsController extends Controller
      */
     public function store(Request $request)
     {
-        // create the target from the location
-        $location = Location::find($request->location_id);
-        $target = Target::create();
-        $target->location()->associate($location);
-        $target->coordinates = $request->coordinates;
-        $target->save();
+        /*
+         * TODO Set the date of the experiment (add it to form)
+         */
 
+        // create the target
+        $target = Target::fromLocationWithCoordinates($request->location_id, $request->coordinates);
         // pick the decoys
-        $decoys = $this->pickUnusedLocations(4);
-
+        $decoys = Location::pickUnused(4);
         // create the experiment, attach target and decoys
-        $experiment = Experiment::create();
-        $experiment->target()->save($target);
-        $experiment->decoys()->saveMany($decoys->all());
-        $experiment->save();
-
+        Experiment::fromTargetAndDecoys($target, $decoys);
         // redirect to experiments list
         return redirect('/experiments');
     }

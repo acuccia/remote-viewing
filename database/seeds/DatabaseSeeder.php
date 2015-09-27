@@ -3,6 +3,12 @@
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 
+use App\Location;
+use Faker\Factory as Faker;
+use App\Target;
+use App\Experiment;
+use App\User;
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -16,7 +22,25 @@ class DatabaseSeeder extends Seeder
 
         // $this->call(UserTableSeeder::class);
 
-        factory(\App\Location::class, 50)->create();
+        factory(Location::class, 100)->create();
+
+        $faker = Faker::create();
+
+        for ($i=0; $i<10; $i++) {
+            $location = Location::pickUnused(1);
+            $target = \App\Target::fromLocationWithCoordinates($location->id, $faker->word);
+            $decoys = Location::pickUnused(4);
+            $experiment = \App\Experiment::fromTargetAndDecoys($target, $decoys);
+            $experiment->start_date = Carbon\Carbon::now();
+            $experiment->save();
+        }
+
+        User::create([
+            'name' => 'Anthony',
+            'email'     => 'acuccia@gmail.com',
+            'password'  => bcrypt('password'),
+            'is_admin'  => true
+        ]);
 
         Model::reguard();
     }

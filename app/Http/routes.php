@@ -11,8 +11,10 @@
 |
 */
 
-Route::get('/', 'PagesController@welcome');
-Route::get('/home', 'PagesController@welcome');
+Route::get('/about', 'PagesController@about');
+Route::get('/', 'PagesController@home');
+Route::get('/home', 'PagesController@home');
+
 
 Route::resource('locations', 'LocationsController');
 Route::resource('experiments', 'ExperimentsController');
