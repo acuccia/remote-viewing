@@ -52,16 +52,20 @@ class ExperimentsController extends Controller
      */
     public function store(Request $request)
     {
-        /*
-         * TODO Set the date of the experiment (add it to form)
-         */
+        $this->validate($request, [
+           'coordinates' => 'required|digits:8',
+            'start_date' => 'date|required'
+        ]);
 
         // create the target
         $target = Target::fromLocationWithCoordinates($request->location_id, $request->coordinates);
         // pick the decoys
         $decoys = Location::pickUnused(4);
         // create the experiment, attach target and decoys
-        Experiment::fromTargetAndDecoys($target, $decoys);
+        $experiment = Experiment::fromTargetAndDecoys($target, $decoys);
+        $experiment->start_date = $request->start_date;
+        $experiment->save();
+
         // redirect to experiments list
         return redirect('/experiments');
     }

@@ -15,9 +15,19 @@ class CreateTargetsTable extends Migration
         Schema::create('targets', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('location_id');
-            $table->string('coordinates');
             $table->integer('experiment_id');
+            $table->string('coordinates');
             $table->timestamps();
+
+            $table->foreign('location_id')
+                ->references('id')
+                ->on('locations')
+                ->onDelete('cascade');
+
+            $table->foreign('experiment_id')
+                ->references('id')
+                ->on('experiments')
+                ->onDelete('cascade');
         });
     }
 

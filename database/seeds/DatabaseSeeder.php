@@ -26,12 +26,12 @@ class DatabaseSeeder extends Seeder
 
         $faker = Faker::create();
 
-        for ($i=0; $i<10; $i++) {
+        for ($i=0; $i<3; $i++) {
             $location = Location::pickUnused(1);
-            $target = \App\Target::fromLocationWithCoordinates($location->id, $faker->word);
+            $target = \App\Target::fromLocationWithCoordinates($location->id, $faker->randomNumber(8));
             $decoys = Location::pickUnused(4);
             $experiment = \App\Experiment::fromTargetAndDecoys($target, $decoys);
-            $experiment->start_date = Carbon\Carbon::now();
+            $experiment->start_date = Carbon\Carbon::now()->addDays(7);
             $experiment->save();
         }
 

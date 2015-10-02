@@ -16,10 +16,16 @@ class CreateTrialsTable extends Migration
             $table->increments('id');
             $table->integer('experiment_id');
             $table->integer('user_id');
-            $table->boolean('received_coordinates')->default(false);
-            $table->boolean('received_choices')->default(false);
+            $table->boolean('unlocked')->default(false);
+            $table->integer('stage')->default(1);
             $table->boolean('complete')->default(false);
+            $table->text('notes');
             $table->timestamps();
+
+            $table->foreign('experiment_id')
+                ->references('id')
+                ->on('experiments')
+                ->onDelete('cascade');
         });
     }
 

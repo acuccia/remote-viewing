@@ -18,10 +18,17 @@
 
     {!! Form::hidden('location_id', $location->id) !!}
 
-    {!! Form::label('coordinates', 'Coordinates:') !!}
-    {!! Form::text('coordinates') !!}
+    <div class="form-group">
+        {!! Form::label('coordinates', 'Coordinates:') !!}
+        {!! Form::text('coordinates', null, ['class' => 'form-control']) !!}
 
-    {!! Form::submit('Assign') !!}
+        {!! Form::label('start_date', 'Start Date:') !!}
+        {!! Form::input('date', 'start_date', Carbon\Carbon::now()->addDays(1)->format('Y-m-d'), ['class' => 'form-control']) !!}
+    </div>
+
+    <div class="form-group">
+        {!! Form::submit('Assign', ['class' => 'btn btn-primary form-control']) !!}
+    </div>
 
     {!! Form::close() !!}
 
