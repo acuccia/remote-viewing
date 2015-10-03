@@ -18,9 +18,15 @@
                     </a>
                 </div>
 
-                <a class="btn btn-primary" href="{{ action('TrialsController@next', $active->id) }}">
-                    Next Experiment
-                </a>
+                {!! Form::open(['action' => 'TrialsController@walkthrough']) !!}
+                {!! Form::hidden('stage', 'reveal') !!}
+                {!! Form::hidden('trialId', $active->id) !!}
+
+                <div class="form-group">
+                    {!! Form::submit('Next Experiment', ['class' => 'btn btn-primary form-control']) !!}
+                </div>
+
+                {!! Form::close() !!}
 
             </div>
         </div>

@@ -16,47 +16,40 @@
 
                 <table class="table">
                     @foreach($active->experiment->targets as $t)
-                        @if($t->is_decoy)
+                        @if ($active->selections->contains($t->id))
                             <tr class="row">
-                        @else
-                            <tr class="row rowhighlight">
-                        @endif
-                                <td> {{ $t->location->name }}</td>
-                                <td>*selected*</td>
+                                <td>
+                                    <a href="{{ $t->location->link }}" target="_blank">
+                                        {{ $t->location->name }}
+                                    </a>
+                                </td>
                             </tr>
+                        @endif
                     @endforeach
-                    {{--<tr class="row">--}}
-                        {{--<td>--}}
-                            {{--<a href="{{ $active->experiment->target->location->link }}" target="_blank">--}}
-                                {{--{{ $active->experiment->target->location->name }}--}}
-                            {{--</a>--}}
-                        {{--</td>--}}
-                        {{--<td>--}}
-                            {{--selected--}}
-                        {{--</td>--}}
-                    {{--</tr>--}}
-
-                    {{--@foreach($active->experiment->decoys as $location)--}}
-                        {{--<tr class="row">--}}
-                            {{--<td>--}}
-                                {{--<a href="{{ $location->link }}" target="_blank">{{ $location->name }}</a>--}}
-                            {{--</td>--}}
-                            {{--<td>--}}
-                                {{-----}}
-                            {{--</td>--}}
-                        {{--</tr>--}}
-                    {{--@endforeach--}}
-
                 </table>
 
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-1">
-                        <a class="btn btn-primary btn-block" href="{{ action('TrialsController@edit', $active->id) }}">Edit</a>
-                    </div>
-                    <div class="col-md-4 col-md-offset-2">
-                        <a class="btn btn-primary btn-block" href="{{ action('TrialsController@confirm', $active->id) }}">Confirm</a>
+                {!! Form::open(['action' => 'TrialsController@walkthrough']) !!}
+                {!! Form::hidden('stage', 'confirm') !!}
+                {!! Form::hidden('trialId', $active->id) !!}
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-1">
+                            {!! Form::submit('Edit', [
+                                'class' => 'btn btn-primary form-control',
+                                'name' => 'Edit'
+                            ]) !!}
+                        </div>
+                        <div class="col-md-4 col-md-offset-2">
+                            {!! Form::submit('Confirm', [
+                                'class' => 'btn btn-primary form-control',
+                                'name' => 'Confirm'
+                            ]) !!}
+                        </div>
                     </div>
                 </div>
+
+                {!! Form::close() !!}
             </div>
         </div>
     </div>

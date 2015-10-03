@@ -1,15 +1,15 @@
 <h1>Experiment #{{ $active->experiment->id }}</h1>
 
-@if ($active->stage == 1)
+@if ($active->stage == 'start')
     @include('trials.start')
-@elseif($active->stage == 2)
+@elseif($active->stage == 'view')
     @include('trials.view')
-@elseif($active->stage == 3)
+@elseif($active->stage == 'feedback')
     @include('trials.feedback')
-@elseif($active->stage == 4)
+@elseif($active->stage == 'evaluate')
     @include('trials.evaluate')
-@elseif($active->stage == 5)
+@elseif($active->stage == 'confirm')
     @include('trials.confirm')
-@elseif($active->stage == 6)
+@elseif($active->stage == 'reveal')
     @include('trials.reveal')
 @endif

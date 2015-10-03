@@ -14,28 +14,30 @@
 
                 <h4 class="text-center">Possible Targets</h4>
 
-                {!! Form::open(['action' => ['TrialsController@saveChoices', $active->id]]) !!}
+                {!! Form::open(['action' => 'TrialsController@walkthrough']) !!}
+                {!! Form::hidden('stage', 'evaluate') !!}
+                {!! Form::hidden('trialId', $active->id) !!}
 
                 <div class="form-group">
                     <table class="table">
                         @foreach($active->experiment->targets as $t)
-                            @if($t->is_decoy)
-                                <tr class="row">
-                            @else
-                                <tr class="row rowhighlight">
-                            @endif
-                                    <td>
-                                        <a href="{{ $t->location->link }}" target="_blank">
-                                            {{ $t->location->name }}
-                                        </a>
-                                    </td>
-                                    <td>
-                                        {!! Form::checkbox('target') !!}
-                                    </td>
-                                </tr>
+                            <tr class="row">
+                                <td>
+                                    <a href="{{ $t->location->link }}" target="_blank">
+                                        {{ $t->location->name }}
+                                    </a>
+                                </td>
+                                <td>
+                                    @if ($active->selections->contains($t->id))
+                                        <input name="targets[]" type="checkbox" value="{{ $t->id }}" checked>
+                                    @else
+                                        <input name="targets[]" type="checkbox" value="{{ $t->id }}">
+                                    @endif
+
+                                </td>
+                            </tr>
                         @endforeach
                     </table>
-
                 </div>
 
                 <div class="form-group">

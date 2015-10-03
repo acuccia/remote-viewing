@@ -11,7 +11,7 @@
                 </div>
 
                 {!! Form::open(['action' => 'TrialsController@walkthrough']) !!}
-                {!! Form::hidden('stage', 1) !!}
+                {!! Form::hidden('stage', 'start') !!}
                 {!! Form::hidden('trialId', $active->id) !!}
 
                 <div class="form-group">

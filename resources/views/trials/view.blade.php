@@ -16,9 +16,15 @@
                     <h3>{{ implode(' ',str_split($target->coordinates )) }}</h3>
                 </div>
 
-                <a class="btn btn-primary btn-block" href="{{ action('TrialsController@setStage', ['id' => $active->id, 'stage' => $active->stage+1]) }}">
-                    Go to Step 2
-                </a>
+                {!! Form::open(['action' => 'TrialsController@walkthrough']) !!}
+                {!! Form::hidden('stage', 'view') !!}
+                {!! Form::hidden('trialId', $active->id) !!}
+
+                <div class="form-group">
+                    {!! Form::submit('Go to Step 2', ['class' => 'btn btn-primary form-control']) !!}
+                </div>
+
+                {!! Form::close() !!}
             </div>
         </div>
     </div>

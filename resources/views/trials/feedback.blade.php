@@ -13,17 +13,20 @@
 
                 <h4 class="text-center">Notes</h4>
 
-                {!! Form::open(['action' => ['TrialsController@saveNotes', $active->id]]) !!}
+                {!! Form::open(['action' => 'TrialsController@walkthrough']) !!}
+                {!! Form::hidden('stage', 'feedback') !!}
+                {!! Form::hidden('trialId', $active->id) !!}
 
-                    <div class="form-group">
-                        {!! Form::textarea('notes', $active->notes, ['class' => 'form-control']) !!}
-                    </div>
+                <div class="form-group">
+                    {!! Form::textarea('notes', $active->notes, ['class' => 'form-control']) !!}
+                </div>
 
-                    <div class="form-group">
-                        {!! Form::submit('Go to Step 3', ['class' => 'btn btn-primary form-control']) !!}
-                    </div>
+                <div class="form-group">
+                    {!! Form::submit('Go to Step 3', ['class' => 'btn btn-primary form-control']) !!}
+                </div>
 
                 {!! Form::close() !!}
+
             </div>
         </div>
     </div>

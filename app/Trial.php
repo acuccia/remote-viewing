@@ -47,4 +47,9 @@ class Trial extends Model
     {
         return $this->belongsTo(\App\Experiment::class);
     }
+
+    public function selections()
+    {
+        return $this->belongsToMany(Target::class);
+    }
 }

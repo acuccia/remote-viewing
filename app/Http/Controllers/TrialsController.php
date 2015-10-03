@@ -14,74 +14,50 @@ class TrialsController extends Controller
         $trial = Trial::findOrFail($request->trialId);
 
         switch ($request->stage) {
-            case 1:
-                $trial->stage = 2;
+            case 'start':
+                $trial->stage = 'view';
                 $trial->save();
                 return redirect('/home');
-                break;
+
+            case 'view':
+                $trial->stage = 'feedback';
+                $trial->save();
+                return redirect('/home');
+
+            case 'feedback':
+                $trial->notes = $request->notes;
+                $trial->stage = 'evaluate';
+                $trial->save();
+                return redirect('/home');
+
+            case 'evaluate':
+                $this->validate($request, ['targets' => 'required']);
+                $this->saveChoices($trial, $request->targets);
+                $trial->stage = 'confirm';
+                $trial->save();
+                return redirect('/home');
+
+            case 'confirm':
+                if ($request->Edit) {
+                    $trial->stage = 'evaluate';
+                    $trial->save();
+                } else if ($request->Confirm) {
+                    $trial->stage = 'reveal';
+                    $trial->save();
+                }
+                return redirect('/home');
+
+            case 'reveal':
+                $trial->complete = true;
+                $trial->save();
+                return redirect('/home');
+
         }
     }
 
-    public function setStage($trialId, $stage)
+    private function saveChoices($trial, $selected)
     {
-        $trial = Trial::findOrFail($trialId);
-        $trial->stage = $stage;
-        $trial->save();
-
-        return view('pages.home');
-    }
-
-    public function saveNotes($trialId, Request $request)
-    {
-        $trial = Trial::findOrFail($trialId);
-        $trial->notes = $request->notes;
-        $trial->stage = 4;
-        $trial->save();
-
-        return view('pages.home');
-    }
-
-    public function saveChoices($trialId, Request $request)
-    {
-        $trial = Trial::findOrFail($trialId);
-//        $trial->notes = $request->notes;
-        $trial->stage = 5;
-        $trial->save();
-
-        return view('pages.home');
-    }
-
-    public function edit($trialId)
-    {
-        $trial = Trial::findOrFail($trialId);
-        $trial->stage = 4;
-        $trial->save();
-
-        return view('pages.home');
-    }
-
-    public function confirm($trialId)
-    {
-        $trial = Trial::findOrFail($trialId);
-        $trial->stage = 6;
-        $trial->save();
-
-        return view('pages.home');
-    }
-
-    public function next($trialId)
-    {
-        $trial = Trial::findOrFail($trialId);
-        $trial->complete = true;
-        $trial->save();
-
-        return view('pages.home');
-    }
-
-    public function score($trialId)
-    {
-        $trial = Trial::findOrFail($trialId);
-        $trial->update(['complete' => true]);
+        $trial->selections()->sync($selected);
     }
 
 }

@@ -28,9 +28,10 @@
 
     @include('partials.nav')
 
+    @include('partials.errors')
+
     @yield('content')
 
-    @include('partials.errors')
 </div>
 
 </body>
