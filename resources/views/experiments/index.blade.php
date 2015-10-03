@@ -23,12 +23,16 @@
             <td>{{ $experiment->id }}</td>
             <td>
                 <div class="col-md-10">
-                    <a href="{{ $experiment->target->location->link }}">{{ $experiment->target->location->name }}</a>
+                    @foreach($experiment->target as $target)
+                        <a href="{{ $target->location->link }}">
+                            {{ $target->location->name }}
+                        </a>
+                    @endforeach
                 </div>
             </td>
             <td>
                 @foreach($experiment->decoys as $decoy)
-                    <div class="col-md-3"><a href="{{ $decoy->link }}">{{ $decoy->name }}</a></div>
+                    <div class="col-md-3"><a href="{{ $decoy->location->link }}">{{ $decoy->location->name }}</a></div>
                 @endforeach
             </td>
         </tr>

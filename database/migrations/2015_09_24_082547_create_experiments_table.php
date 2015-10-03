@@ -17,15 +17,6 @@ class CreateExperimentsTable extends Migration
             $table->date('start_date');
             $table->timestamps();
         });
-
-        // pivot table for decoys
-        Schema::create('decoys', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('experiment_id');
-            $table->integer('location_id');
-            $table->timestamps();
-        });
-
     }
 
     /**
@@ -35,7 +26,6 @@ class CreateExperimentsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('decoys');
         Schema::drop('experiments');
     }
 }

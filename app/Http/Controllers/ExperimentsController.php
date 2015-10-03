@@ -24,7 +24,7 @@ class ExperimentsController extends Controller
      */
     public function index()
     {
-        return view('experiments.index')->with('experiments', Experiment::all());
+        return view('experiments.index')->with('experiments', Experiment::with('target')->get());
     }
 
     /**
@@ -35,7 +35,7 @@ class ExperimentsController extends Controller
     public function create()
     {
         $total = Location::all()->count();
-        $used = Location::has('targets')->count() + Location::has('experiments')->count();
+        $used = Location::has('targets')->count();
         $free = $total - $used;
         if ($free < 5) {
             return redirect('/locations');
@@ -57,10 +57,17 @@ class ExperimentsController extends Controller
             'start_date' => 'date|required'
         ]);
 
+//        $location = Location::pickUnused(1);
+//        $target = Target::fromLocationWithCoordinates($location->id, $faker->randomNumber(8));
+//        $decoys = Target::decoysFromLocations(Location::pickUnused(4));
+//        $experiment = Experiment::fromTargetAndDecoys($target, $decoys);
+//        $experiment->start_date = Carbon\Carbon::now()->addDays(7);
+//        $experiment->save();
+
         // create the target
         $target = Target::fromLocationWithCoordinates($request->location_id, $request->coordinates);
         // pick the decoys
-        $decoys = Location::pickUnused(4);
+        $decoys = Target::decoysFromLocations(Location::pickUnused(4));
         // create the experiment, attach target and decoys
         $experiment = Experiment::fromTargetAndDecoys($target, $decoys);
         $experiment->start_date = $request->start_date;

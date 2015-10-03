@@ -14,8 +14,8 @@ class CreateTrialsTable extends Migration
     {
         Schema::create('trials', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('experiment_id');
-            $table->integer('user_id');
+            $table->integer('experiment_id')->unsigned();
+            $table->integer('user_id')->unsigned();
             $table->boolean('unlocked')->default(false);
             $table->integer('stage')->default(1);
             $table->boolean('complete')->default(false);

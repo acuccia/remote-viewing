@@ -9,6 +9,19 @@ use App\Http\Controllers\Controller;
 
 class TrialsController extends Controller
 {
+    public function walkthrough(Request $request)
+    {
+        $trial = Trial::findOrFail($request->trialId);
+
+        switch ($request->stage) {
+            case 1:
+                $trial->stage = 2;
+                $trial->save();
+                return redirect('/home');
+                break;
+        }
+    }
+
     public function setStage($trialId, $stage)
     {
         $trial = Trial::findOrFail($trialId);

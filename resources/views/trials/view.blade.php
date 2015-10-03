@@ -13,7 +13,7 @@
 
                 <h4 class="text-center">Coordinates</h4>
                 <div class="well well-sm text-center">
-                    <h3>{{ implode(' ',str_split($active->experiment->target->coordinates )) }}</h3>
+                    <h3>{{ implode(' ',str_split($target->coordinates )) }}</h3>
                 </div>
 
                 <a class="btn btn-primary btn-block" href="{{ action('TrialsController@setStage', ['id' => $active->id, 'stage' => $active->stage+1]) }}">

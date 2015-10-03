@@ -20,9 +20,8 @@ class Trial extends Model
         $trial_ids = array_keys($user->trials->keyBy('experiment_id')->toArray());
         $newExperiments = Experiment::where('start_date', '<=', Carbon::now())->whereNotIn('id', $trial_ids)->get();
         foreach ($newExperiments as $experiment) {
-            $t = Trial::create();
-            $t->experiment_id = $experiment->id;
-            $t->save();
+            $t = new Trial;
+            $t->experiment()->associate($experiment);
             $user->trials()->save($t);
         }
 

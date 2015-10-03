@@ -24,6 +24,12 @@ class ViewComposerServiceProvider extends ServiceProvider
             // get the active trial
             $active = $user->trials()->whereUnlocked(true)->whereComplete(false)->first();
 
+            // get the target for the active trial
+            $target = null;
+            if ($active) {
+                $target = $active->experiment->target->first();
+            }
+
             // get the completed trials
             $history = $user->trials()->whereComplete(true)->get();
 
@@ -33,7 +39,8 @@ class ViewComposerServiceProvider extends ServiceProvider
                     ->first();
 
             // attach the data to the view
-            $view->with(['active' => $active, 'history' => $history, 'next' => $next]);
+//            dd(get_class($target));
+            $view->with(compact('active', 'history', 'next', 'target'));
         });
     }
 

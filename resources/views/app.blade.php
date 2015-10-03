@@ -15,6 +15,11 @@
         .top-space {
             margin-top:     15px;
         }
+
+        tr.rowhighlight {
+            background-color: #f0f8ff;
+        }
+
     </style>
 </head>
 <body>

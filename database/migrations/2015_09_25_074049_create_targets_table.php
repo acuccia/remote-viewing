@@ -14,9 +14,11 @@ class CreateTargetsTable extends Migration
     {
         Schema::create('targets', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('location_id');
-            $table->integer('experiment_id');
+            $table->integer('location_id')->unsigned();
+            $table->integer('experiment_id')->unsigned();
             $table->string('coordinates');
+            $table->boolean('is_decoy')->default(true);
+            $table->boolean('selected')->default(false);    // user picked it
             $table->timestamps();
 
             $table->foreign('location_id')

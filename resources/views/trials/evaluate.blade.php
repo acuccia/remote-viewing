@@ -18,28 +18,22 @@
 
                 <div class="form-group">
                     <table class="table">
-                        <tr class="row">
-                            <td>
-                                <a href="{{ $active->experiment->target->location->link }}" target="_blank">
-                                    {{ $active->experiment->target->location->name }}
-                                </a>
-                            </td>
-                            <td>
-                                {!! Form::checkbox('target') !!}
-                            </td>
-                        </tr>
-
-                        @foreach($active->experiment->decoys as $location)
-                            <tr class="row">
-                                <td>
-                                    <a href="{{ $location->link }}" target="_blank">{{ $location->name }}</a>
-                                </td>
-                                <td>
-                                    {!! Form::checkbox('target') !!}
-                                </td>
-                            </tr>
+                        @foreach($active->experiment->targets as $t)
+                            @if($t->is_decoy)
+                                <tr class="row">
+                            @else
+                                <tr class="row rowhighlight">
+                            @endif
+                                    <td>
+                                        <a href="{{ $t->location->link }}" target="_blank">
+                                            {{ $t->location->name }}
+                                        </a>
+                                    </td>
+                                    <td>
+                                        {!! Form::checkbox('target') !!}
+                                    </td>
+                                </tr>
                         @endforeach
-
                     </table>
 
                 </div>

@@ -13,8 +13,8 @@
                 <h4 class="text-center">Target</h4>
 
                 <div class="well">
-                    <a href="{{ $active->experiment->target->location->link }}" target="_blank">
-                        {{ $active->experiment->target->location->name }}
+                    <a href="{{ $target->location->link }}" target="_blank">
+                        {{ $target->location->name }}
                     </a>
                 </div>
 

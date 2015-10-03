@@ -12,9 +12,10 @@
                         Experiment #{{ $trial->experiment->id }} ({{ $trial->experiment->start_date->format('m-d-Y') }})
                     </div>
                     <div class="panel-body">
-                        <p>{{ str_repeat("*", strlen($trial->experiment->target->location->name)) }}</p>
-                        @foreach($trial->experiment->decoys as $location)
-                            <p>{{ $location->name }}</p>
+                        @foreach($trial->experiment->targets as $t)
+                            <p>
+                                {{ $t->location->name }}
+                            </p>
                         @endforeach
                     </div>
                 </div>

@@ -9,9 +9,16 @@
                     When you are ready to begin your session, click to
                     retrieve the coordinates for this experiment
                 </div>
-                <a class="btn btn-primary btn-block" href="{{ action('TrialsController@setStage', ['id' => $active->id, 'stage' => $active->stage+1]) }}">
-                    Get Coordinates
-                </a>
+
+                {!! Form::open(['action' => 'TrialsController@walkthrough']) !!}
+                {!! Form::hidden('stage', 1) !!}
+                {!! Form::hidden('trialId', $active->id) !!}
+
+                <div class="form-group">
+                    {!! Form::submit('Get Coordinates', ['class' => 'btn btn-primary form-control']) !!}
+                </div>
+
+                {!! Form::close() !!}
             </div>
         </div>
     </div>

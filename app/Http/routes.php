@@ -15,6 +15,8 @@ Route::get('/about', 'PagesController@about');
 Route::get('/', 'PagesController@home');
 Route::get('/home', 'PagesController@home');
 
+Route::post('/home', 'TrialsController@walkthrough');
+
 Route::get('/trials/setStage/{id}/{stage}', 'TrialsController@setStage');
 Route::post('/trials/{id}/savenotes', 'TrialsController@saveNotes');
 Route::post('/trials/{id}/savechoices', 'TrialsController@saveChoices');

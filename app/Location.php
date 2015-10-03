@@ -14,7 +14,7 @@ class Location extends Model
     public static function pickUnused($amount = 1)
     {
         $used = array_keys(Location::has('targets')->get()->keyBy('id')->toArray());
-        $used = array_merge($used, array_keys(Location::has('experiments')->get()->keyBy('id')->toArray()));
+        //$used = array_merge($used, array_keys(Location::has('experiments')->get()->keyBy('id')->toArray()));
         $available = Location::whereNotIn('id', $used)->get();
         $locations = $available->random($amount);
         return $locations;
@@ -29,6 +29,7 @@ class Location extends Model
 
     public function experiments()
     {
-        return $this->belongsToMany(\App\Experiment::class, 'decoys');
+        dd('Location.php: should not be here');
+        return $this->belongsToMany(\App\Experiment::class, 'targets');
     }
 }
