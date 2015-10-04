@@ -6,10 +6,6 @@
             </div>
             <div class="panel-body">
 
-                <div class="well well-sm">
-                    Here is the actual target for this experiment.
-                </div>
-
                 <h4 class="text-center">Target</h4>
 
                 <div class="well">
@@ -18,6 +14,35 @@
                     </a>
                 </div>
 
+                <h4 class="text-center">
+                    And these are your choices:
+                </h4>
+
+                <table class="table">
+                    @foreach($active->experiment->targets as $t)
+                        @if ($active->selections->contains($t->id))
+                            <tr class="row">
+                                <td>
+                                    <a href="{{ $t->location->link }}" target="_blank">
+                                        {{ $t->location->name }}
+                                    </a>
+                                </td>
+                                @if ($t->is_decoy)
+                                    <td class="alert-danger text-center">
+                                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                    </td>
+                                @else
+                                    <td class="success text-center">
+                                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                    </td>
+                                @endif
+
+                                </td>
+
+                            </tr>
+                        @endif
+                    @endforeach
+                </table>
                 {!! Form::open(['action' => 'TrialsController@walkthrough']) !!}
                 {!! Form::hidden('stage', 'reveal') !!}
                 {!! Form::hidden('trialId', $active->id) !!}

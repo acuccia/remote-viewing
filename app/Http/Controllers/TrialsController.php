@@ -13,6 +13,19 @@ class TrialsController extends Controller
     {
         $trial = Trial::findOrFail($request->trialId);
 
+        if ($trial->revealed) {
+            // don't allow any previous stages if target was already revealed
+            $trial->stage = 'reveal';
+
+            // posting from the reveal stage, means they
+            // want the next experiment
+            if ($request->stage == 'reveal') {
+                $trial->complete = true;
+            }
+            $trial->save();
+            return redirect('/home');
+        }
+
         switch ($request->stage) {
             case 'start':
                 $trial->stage = 'view';
@@ -43,6 +56,7 @@ class TrialsController extends Controller
                     $trial->save();
                 } else if ($request->Confirm) {
                     $trial->stage = 'reveal';
+                    $trial->revealed = true;
                     $trial->save();
                 }
                 return redirect('/home');
@@ -58,6 +72,11 @@ class TrialsController extends Controller
     private function saveChoices($trial, $selected)
     {
         $trial->selections()->sync($selected);
+    }
+
+    public function history()
+    {
+        return view('trials.history');
     }
 
 }

@@ -23,6 +23,11 @@ class Experiment extends Model
         return $experiment;
     }
 
+    public function getTarget()
+    {
+        return $this->target()->first();
+    }
+
     public function locations()
     {
         return $this->belongsToMany(Location::class, 'targets')->orderBy('id');

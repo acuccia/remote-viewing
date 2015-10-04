@@ -5,8 +5,11 @@
         </div>
 
         <ul class="nav navbar-nav">
-            <li><a href="{{ action('PagesController@home') }}">Home</a></li>
             <li><a href="{{ action('PagesController@about') }}">About</a></li>
+            <li><a href="{{ action('PagesController@home') }}">Home</a></li>
+            @if (Auth::check())
+                <li><a href="{{ action('TrialsController@history') }}">History</a></li>
+            @endif
             @if (Auth::check() and Auth::user()->is_admin)
                 <li><a href="{{ action('LocationsController@index') }}">Locations</a></li>
                 <li><a href="{{ action('ExperimentsController@index') }}">Experiments</a></li>

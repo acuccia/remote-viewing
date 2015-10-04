@@ -16,14 +16,7 @@ Route::get('/', 'PagesController@home');
 Route::get('/home', 'PagesController@home');
 
 Route::post('/home', 'TrialsController@walkthrough');
-
-Route::get('/trials/setStage/{id}/{stage}', 'TrialsController@setStage');
-Route::post('/trials/{id}/savenotes', 'TrialsController@saveNotes');
-Route::post('/trials/{id}/savechoices', 'TrialsController@saveChoices');
-Route::get('/trials/{id}/score', 'TrialsController@score');
-Route::get('/trials/{id}/edit', 'TrialsController@edit');
-Route::get('/trials/{id}/confirm', 'TrialsController@confirm');
-Route::get('/trials/{id}/next', 'TrialsController@next');
+Route::get('/history', 'TrialsController@history');
 
 Route::resource('locations', 'LocationsController');
 Route::resource('experiments', 'ExperimentsController');

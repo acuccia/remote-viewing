@@ -24,7 +24,7 @@
                     <div class="checkbox">
                         <label>
                             <input name="remember" type="checkbox" value="Remember Me"> Remember Me
-                            <a href="auth/forgot" class="pull-right">Forgot Password?</a>
+                            {{--<a href="auth/forgot" class="pull-right">Forgot Password?</a>--}}
                         </label>
                     </div>
 
@@ -32,7 +32,7 @@
 
                 </div>
             </div>
-            <div class="text-center">
+            <div class="text-center h3">
                 <a href="{{ action('Auth\AuthController@getRegister') }}">
                     Don't have an account? Register
                 </a>

@@ -26,16 +26,28 @@ class Trial extends Model
         }
 
         // make sure one trial is unlocked and not complete
-        $active = $user->trials()->whereUnlocked(true)->whereComplete(false)->get();
+        $active = $user->trials()
+            ->whereLocked(false)
+            ->whereComplete(false)
+            ->get();
         if ($active->count() > 1) {
             throw new \Exception('More than 1 active trial');
         }
-        if ($active->count() == 0 && $user->trials()->whereUnlocked(false)->count() > 0) {
+        if ($active->count() == 0 && $user->trials()->whereLocked(true)->whereComplete(false)->count() > 0) {
             // user has trials available, but all are locked, so unlock the first
-            $active = $user->trials()->whereUnlocked(false)->orderBy('experiment_id', 'asc')->first();
-            $active->unlocked = true;
+            $active = $user->trials()
+                        ->whereLocked(true)
+                        ->whereComplete(false)
+                        ->orderBy('experiment_id', 'asc')
+                        ->first();
+            $active->locked = false;
             $active->save();
         }
+    }
+
+    public function success()
+    {
+        return $this->selections->contains($this->experiment->getTarget()->id);
     }
 
     public function user()

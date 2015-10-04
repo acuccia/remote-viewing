@@ -16,9 +16,10 @@ class CreateTrialsTable extends Migration
             $table->increments('id');
             $table->integer('experiment_id')->unsigned();
             $table->integer('user_id')->unsigned();
-            $table->boolean('unlocked')->default(false);
-            $table->string('stage')->default('start');
+            $table->boolean('locked')->default(true);
+            $table->boolean('revealed')->default(false);
             $table->boolean('complete')->default(false);
+            $table->string('stage')->default('start');
             $table->text('notes');
             $table->timestamps();
 

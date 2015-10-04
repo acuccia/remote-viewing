@@ -22,7 +22,7 @@ class ViewComposerServiceProvider extends ServiceProvider
             \App\Trial::refreshTrials($user);
 
             // get the active trial
-            $active = $user->trials()->whereUnlocked(true)->whereComplete(false)->first();
+            $active = $user->trials()->whereLocked(false)->whereComplete(false)->first();
 
             // get the target for the active trial
             $target = null;
@@ -30,17 +30,20 @@ class ViewComposerServiceProvider extends ServiceProvider
                 $target = $active->experiment->target->first();
             }
 
-            // get the completed trials
-            $history = $user->trials()->whereComplete(true)->get();
-
             // get the next available experiment
             $next = Experiment::where('start_date', '>', Carbon::now())
-                    ->orderBy('start_date', 'asc')
-                    ->first();
+                ->orderBy('start_date', 'asc')
+                ->first();
 
             // attach the data to the view
-//            dd(get_class($target));
-            $view->with(compact('active', 'history', 'next', 'target'));
+            $view->with(compact('active', 'next', 'target'));
+        });
+
+        // compose the history page view
+        view()->composer('trials.history', function($view) {
+            $user = Auth::user();
+            $history = $user->trials()->whereComplete(true)->get();
+            $view->with(compact('history'));
         });
     }
 

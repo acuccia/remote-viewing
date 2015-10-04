@@ -15,9 +15,4 @@
 
     @endif
 
-    <hr />
-
-    @if ($history->count() > 0)
-        @include('trials.history')
-    @endif
 @stop
