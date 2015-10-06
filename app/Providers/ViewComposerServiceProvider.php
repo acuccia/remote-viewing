@@ -24,10 +24,24 @@ class ViewComposerServiceProvider extends ServiceProvider
             // get the active trial
             $active = $user->trials()->whereLocked(false)->whereComplete(false)->first();
 
-            // get the target for the active trial
+            // get the target and expiration for the active trial
             $target = null;
+            $expiration = null;
             if ($active) {
+                if ($active->revealed) {
+                    // already been revealed, so close it
+                    $active->complete = true;
+                    $active->save();
+                }
                 $target = $active->experiment->target->first();
+                $expiration = $active->experiment->start_date->copy();
+                $expiration->addDays(1);
+
+                if ($active->expired() && $active->stage == 'embargo') {
+                    $active->stage = 'reveal';
+                    $active->revealed = true;
+                    $active->save();
+                }
             }
 
             // get the next available experiment
@@ -36,14 +50,34 @@ class ViewComposerServiceProvider extends ServiceProvider
                 ->first();
 
             // attach the data to the view
-            $view->with(compact('active', 'next', 'target'));
+            $view->with(compact('active', 'next', 'target', 'expiration'));
         });
 
         // compose the history page view
         view()->composer('trials.history', function($view) {
             $user = Auth::user();
-            $history = $user->trials()->whereComplete(true)->get();
-            $view->with(compact('history'));
+            $history = $user->trials()
+                ->whereRevealed(true)
+                ->whereComplete(true)
+                ->get();
+            $chance = 0;
+            $actual = 0;
+
+            if ($history->count() > 0) {
+                // stats
+                $totalTrials = $user->trials()
+                    ->whereRevealed(true)
+                    ->whereComplete(true)
+                    ->count();
+                $totalSelections = $user->selections()->count();
+                $totalTargets = $totalTrials * 5;
+                $totalHits = $user->trials()->has('hits', 1)->count();
+
+                $chance = ($totalSelections / $totalTargets) * 100; // as a percentage
+                $actual = ($totalHits / $totalTrials) * 100; // as a percentage
+            }
+
+            $view->with(compact('history', 'chance', 'actual'));
         });
     }
 

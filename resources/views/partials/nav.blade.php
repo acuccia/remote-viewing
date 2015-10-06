@@ -11,6 +11,7 @@
                 <li><a href="{{ action('TrialsController@history') }}">History</a></li>
             @endif
             @if (Auth::check() and Auth::user()->is_admin)
+                <li><a href="{{ action('UsersController@index') }}">Users</a></li>
                 <li><a href="{{ action('LocationsController@index') }}">Locations</a></li>
                 <li><a href="{{ action('ExperimentsController@index') }}">Experiments</a></li>
             @endif

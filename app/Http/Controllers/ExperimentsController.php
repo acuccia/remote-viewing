@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use \App\Location;
 use \App\Target;
 use \App\Experiment;
+use Illuminate\Support\Facades\Session;
 
 
 class ExperimentsController extends Controller
@@ -24,7 +25,7 @@ class ExperimentsController extends Controller
      */
     public function index()
     {
-        return view('experiments.index')->with('experiments', Experiment::with('target')->get());
+        return view('experiments.index')->with('experiments', Experiment::orderBy('start_date', 'asc')->get());
     }
 
     /**
@@ -96,7 +97,8 @@ class ExperimentsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $experiment = Experiment::findOrFail($id);
+        return view('experiments.edit', compact('experiment'));
     }
 
     /**
@@ -108,7 +110,14 @@ class ExperimentsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+           'start_date' => 'required|date'
+        ]);
+
+        $experiment = Experiment::findOrFail($id);
+        $experiment->update($request->all());
+        Session::flash('message', "Experiment $id Updated");
+        return redirect()->action('ExperimentsController@index');
     }
 
     /**
@@ -119,6 +128,13 @@ class ExperimentsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $experiment = Experiment::findOrFail($id);
+        if ($experiment->trials()->count() > 0) {
+            Session::flash('message', "Experiment $id Could Not Be Deleted. It is part of a Trial");
+        } else {
+            $experiment->delete();
+            Session::flash('message', "Experiment $id Deleted");
+        }
+        return redirect('experiments');
     }
 }

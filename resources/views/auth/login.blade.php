@@ -28,6 +28,10 @@
                         </label>
                     </div>
 
+                    <div class="form-group">
+                        {!! link_to('password/email', 'Forgot your password?') !!}
+                    </div>
+
                     <input type="submit" value="Login" class="btn btn-info btn-block">
 
                 </div>

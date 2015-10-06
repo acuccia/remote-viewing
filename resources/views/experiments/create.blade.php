@@ -23,7 +23,7 @@
         {!! Form::text('coordinates', null, ['class' => 'form-control']) !!}
 
         {!! Form::label('start_date', 'Start Date:') !!}
-        {!! Form::input('date', 'start_date', Carbon\Carbon::now()->addDays(1)->format('Y-m-d'), ['class' => 'form-control']) !!}
+        {!! Form::input('date', 'start_date', date('Y-m-d H:i:s', mktime(0, 0, 0, date("m")  , date("d")+1, date("Y"))), ['class' => 'form-control']) !!}
     </div>
 
     <div class="form-group">

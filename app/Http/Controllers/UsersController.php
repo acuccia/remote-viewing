@@ -2,19 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Location;
+use App\User;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Session;
 
-class LocationsController extends Controller
+class UsersController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('admin');
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -22,8 +16,9 @@ class LocationsController extends Controller
      */
     public function index()
     {
-        $locations = Location::orderBy('id', 'desc')->get();
-        return view('locations.index', compact('locations'));
+        $users = User::all();
+
+        return view('users.index', compact('users'));
     }
 
     /**
@@ -33,7 +28,7 @@ class LocationsController extends Controller
      */
     public function create()
     {
-        return view('locations.create');
+        //
     }
 
     /**
@@ -44,14 +39,7 @@ class LocationsController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request, [
-            'name' => 'required',
-            'link' => 'required'
-        ]);
-
-        Location::create($request->all());
-        Session::flash('message', 'Location Created');
-        return redirect()->action('LocationsController@create');
+        //
     }
 
     /**
@@ -73,9 +61,7 @@ class LocationsController extends Controller
      */
     public function edit($id)
     {
-        $location = Location::findOrFail($id);
-
-        return view('locations.edit', compact('location'));
+        //
     }
 
     /**
@@ -87,10 +73,7 @@ class LocationsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $location = Location::findOrFail($id);
-        $location->update($request->all());
-        Session::flash('message', "Location $id Updated");
-        return redirect()->action('LocationsController@index');
+        //
     }
 
     /**
@@ -101,14 +84,6 @@ class LocationsController extends Controller
      */
     public function destroy($id)
     {
-        $loc = Location::find($id);
-        if ($loc->targets()->count() == 0) {
-            $loc->delete();
-            Session::flash('message', "Location $id Deleted");
-        } else {
-            Session::flash('message', "Location $id Could Not Be Deleted (IN USE)");
-        }
-
-        return redirect()->action('LocationsController@index');
+        //
     }
 }

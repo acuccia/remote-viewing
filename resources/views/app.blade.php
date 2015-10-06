@@ -28,6 +28,8 @@
 
     @include('partials.nav')
 
+    @include('partials.message')
+
     @include('partials.errors')
 
     @yield('content')

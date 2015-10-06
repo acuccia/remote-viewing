@@ -41,4 +41,14 @@ class User extends Model implements AuthenticatableContract,
     {
         return $this->hasMany(\App\Trial::class);
     }
+
+    /**
+     * All the selections made by the user in all the trials
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasManyThrough
+     */
+    public function selections()
+    {
+        return $this->hasManyThrough(\App\Selection::class, Trial::class);
+    }
 }

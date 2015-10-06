@@ -2,7 +2,13 @@
 
 @section('content')
 
-    <h1 class="text-center">Completed Trials</h1>
+    <div class="row">
+        <h1 class="col-md-4 col-md-offset-4 text-center">Completed Trials</h1>
+        <h4 class="col-md-4 text-right">
+            Expected: {{ number_format($chance, 1) }}%,
+            Actual: {{ number_format($actual, 1) }}%
+        </h4>
+    </div>
 
     @if ($history->count() > 0)
         @foreach($history->chunk(3) as $chunk)
@@ -38,9 +44,13 @@
                                 @endforeach
                                 <hr />
                                 @if ($trial->success())
-                                    <h3 class="text-center">Hit</h3>
+                                    <h3 class="text-center success">
+                                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                    </h3>
                                 @else
-                                    <h3 class="text-center">Miss</h3>
+                                    <h3 class="text-center danger">
+                                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                    </h3>
                                 @endif
                             </div>
                         </div>

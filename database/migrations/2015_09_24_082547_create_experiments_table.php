@@ -14,7 +14,7 @@ class CreateExperimentsTable extends Migration
     {
         Schema::create('experiments', function (Blueprint $table) {
             $table->increments('id');
-            $table->date('start_date');
+            $table->timestamp('start_date');
             $table->timestamps();
         });
     }

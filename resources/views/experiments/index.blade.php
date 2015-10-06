@@ -5,7 +5,7 @@
 <div class="row">
     <h1 class="col-md-3"></h1>
     <h1 class="text-center col-md-6">Experiments</h1>
-    <h1 class="text-right col-md-3"><a href="{{ action('ExperimentsController@create') }}">New</a></h1>
+    <h1 class="text-right col-md-3"><a href="{{ action('ExperimentsController@create') }}" class="btn btn-primary">New</a></h1>
 </div>
 
 @if ($experiments->count() > 0)
@@ -13,27 +13,37 @@
     <table class="table">
 
         <tr>
-            <th class="col-md-1">ID</th>
-            <th class="col-md-3">Target</th>
-            <th class="col-md-8">Decoys</th>
+            <th class="col-md-2">Date</th>
+            <th class="col-md-2">Target</th>
+            <th class="col-md-7">Decoys</th>
+            <th class="col-md-1"></th>
         </tr>
 
     @foreach($experiments as $experiment)
         <tr>
-            <td>{{ $experiment->id }}</td>
             <td>
-                <div class="col-md-10">
-                    @foreach($experiment->target as $target)
-                        <a href="{{ $target->location->link }}">
-                            {{ $target->location->name }}
-                        </a>
-                    @endforeach
-                </div>
+                {{ $experiment->start_date->diffForHumans() }}
+                <a href="{{ action('ExperimentsController@edit', $experiment->id) }}" class="btn btn-primary">
+                    Edit
+                </a>
+            </td>
+            <td>
+                {{--For some reason I can't get target as object, just as collection, so I have to iterate :/  --}}
+                @foreach($experiment->target as $target)
+                    <a href="{{ $target->location->link }}">
+                        {{ $target->location->name }}
+                    </a>
+                @endforeach
             </td>
             <td>
                 @foreach($experiment->decoys as $decoy)
                     <div class="col-md-3"><a href="{{ $decoy->location->link }}">{{ $decoy->location->name }}</a></div>
                 @endforeach
+            </td>
+            <td>
+                {!! Form::open(['url' => 'experiments/' . $experiment->id, 'method' => 'DELETE']) !!}
+                    {!! Form::submit('Delete', ['class' => 'btn btn-danger form-control']) !!}
+                {!! Form::close() !!}
             </td>
         </tr>
     @endforeach

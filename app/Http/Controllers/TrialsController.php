@@ -6,12 +6,23 @@ use App\Trial;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Session;
 
 class TrialsController extends Controller
 {
     public function walkthrough(Request $request)
     {
         $trial = Trial::findOrFail($request->trialId);
+
+        if ($trial->expired()) {
+            if ($trial->stage != 'reveal' && $trial->stage != 'embargo') {
+                // remove this trial from the user - they took too long
+                $trial->delete();
+                Trial::refreshTrials($request->user());
+                Session::flash('message', 'The last trial has expired. Please try the next one.');
+                return redirect('/home');
+            }
+        }
 
         if ($trial->revealed) {
             // don't allow any previous stages if target was already revealed
@@ -33,7 +44,7 @@ class TrialsController extends Controller
                 return redirect('/home');
 
             case 'view':
-                $trial->stage = 'feedback';
+                $trial->stage = 'evaluate'; // skipping feedback for now
                 $trial->save();
                 return redirect('/home');
 
@@ -55,8 +66,11 @@ class TrialsController extends Controller
                     $trial->stage = 'evaluate';
                     $trial->save();
                 } else if ($request->Confirm) {
-                    $trial->stage = 'reveal';
-                    $trial->revealed = true;
+                    if ($trial->expired()) {
+                        $trial->stage = 'reveal';
+                    } else {
+                        $trial->stage = 'embargo';
+                    }
                     $trial->save();
                 }
                 return redirect('/home');

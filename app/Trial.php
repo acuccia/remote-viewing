@@ -18,7 +18,12 @@ class Trial extends Model
     {
         // add in new experiments
         $trial_ids = array_keys($user->trials->keyBy('experiment_id')->toArray());
-        $newExperiments = Experiment::where('start_date', '<=', Carbon::now())->whereNotIn('id', $trial_ids)->get();
+        $now = Carbon::now();
+        $yesterday = $now->copy();
+        $yesterday->subHour(24);
+        $newExperiments = Experiment::where('start_date', '<=', $now)
+            ->where('start_date', '>', $yesterday)
+            ->whereNotIn('id', $trial_ids)->get();
         foreach ($newExperiments as $experiment) {
             $t = new Trial;
             $t->experiment()->associate($experiment);
@@ -38,16 +43,33 @@ class Trial extends Model
             $active = $user->trials()
                         ->whereLocked(true)
                         ->whereComplete(false)
-                        ->orderBy('experiment_id', 'asc')
+//                        ->orderBy('experiments.start_date', 'asc')
                         ->first();
             $active->locked = false;
             $active->save();
         }
     }
 
+    public function expired()
+    {
+        // check if the trial is more than 24 hours past its start date
+        if ($this->experiment->start_date->diffInHours(Carbon::now()) >= 24) {
+            return true;
+        }
+
+        return false;
+    }
+
     public function success()
     {
         return $this->selections->contains($this->experiment->getTarget()->id);
+    }
+
+    public function hits()
+    {
+        // number of hits (either 0 or 1) for this trial
+
+        return $this->selections()->where('is_decoy', false);
     }
 
     public function user()

@@ -1,4 +1,4 @@
-<h1>Experiment #{{ $active->experiment->id }}</h1>
+<h1 class="text-center">Experiment {{ $active->experiment->id }}</h1>
 
 @if ($active->stage == 'start')
     @include('trials.start')
@@ -10,6 +10,8 @@
     @include('trials.evaluate')
 @elseif($active->stage == 'confirm')
     @include('trials.confirm')
+@elseif($active->stage == 'embargo')
+    @include('trials.embargo')
 @elseif($active->stage == 'reveal')
     @include('trials.reveal')
 @endif

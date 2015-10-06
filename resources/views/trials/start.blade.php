@@ -2,11 +2,11 @@
     <div class="col-md-4 col-md-offset-4">
         <div class="panel panel-success">
             <div class="panel-heading text-center">
-                <h4>Step 1</h4>
+                <h4>Begin</h4>
             </div>
             <div class="panel-body">
                 <div class="well bg-warning">
-                    When you are ready to begin your session, click to
+                    When you are ready to begin, click to
                     retrieve the coordinates for this experiment
                 </div>
 
