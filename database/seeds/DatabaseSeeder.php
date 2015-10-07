@@ -35,14 +35,14 @@ class DatabaseSeeder extends Seeder
 //            $experiment->save();
 //        }
 
-        DB::table('users')->truncate();
-
-        User::create([
-            'name' => 'Anthony',
-            'email'     => 'acuccia@gmail.com',
-            'password'  => bcrypt('acrv2015'),
-            'is_admin'  => true
-        ]);
+//        DB::table('users')->truncate();
+//
+//        User::create([
+//            'name' => 'Anthony',
+//            'email'     => 'acuccia@gmail.com',
+//            'password'  => bcrypt('acrv2015'),
+//            'is_admin'  => true
+//        ]);
 
         Model::reguard();
     }

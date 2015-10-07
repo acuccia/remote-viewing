@@ -11,10 +11,17 @@ class Location extends Model
         'link',
     ];
 
-    public static function pickUnused($amount = 1)
+    /**
+     * @param $amount   - how many locations to pick
+     * @param $exclude  - array of locations to exclude
+     * @return mixed
+     */
+    public static function pickUnused($amount, $exclude = [])
     {
         $used = array_keys(Location::has('targets')->get()->keyBy('id')->toArray());
-        //$used = array_merge($used, array_keys(Location::has('experiments')->get()->keyBy('id')->toArray()));
+        foreach($exclude as $location) {
+            $used[] = $location->id;
+        }
         $available = Location::whereNotIn('id', $used)->get();
         $locations = $available->random($amount);
         return $locations;

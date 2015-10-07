@@ -13,6 +13,7 @@ class CreateTrialsTable extends Migration
     public function up()
     {
         Schema::create('trials', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->increments('id');
             $table->integer('experiment_id')->unsigned();
             $table->integer('user_id')->unsigned();
@@ -26,6 +27,11 @@ class CreateTrialsTable extends Migration
             $table->foreign('experiment_id')
                 ->references('id')
                 ->on('experiments')
+                ->onDelete('cascade');
+
+            $table->foreign('user_id')
+                ->references('id')
+                ->on('users')
                 ->onDelete('cascade');
         });
     }

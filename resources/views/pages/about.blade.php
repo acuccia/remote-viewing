@@ -71,7 +71,7 @@
             have viewed all five choices, choose the one that you think is the real target.
             If more than one target is a very good match, you can select more than one.
             However, the more you choose, the more correct answers you will need to get to do
-            better than chance (see the <a href="#statistics">statistics</a> section below).
+            better than chance (see the <a href="#stats">statistics</a> section below).
             Click "Save" when you are satisfied with your answer.
         </p>
 
@@ -124,6 +124,13 @@
             the target. Coordinates always come in the form of 2 sets of 4
             numbers (for example 1234 5678), and are unique to each target.
         </p>
+    </div>
+
+    <div class="jumbotron">
+        <h2 class="text-center"><a name="stats">Statistics</a></h2>
+
+        <p>This section is coming soon</p>
+
     </div>
 
 @stop

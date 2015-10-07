@@ -68,7 +68,7 @@ class ExperimentsController extends Controller
         // create the target
         $target = Target::fromLocationWithCoordinates($request->location_id, $request->coordinates);
         // pick the decoys
-        $decoys = Target::decoysFromLocations(Location::pickUnused(4));
+        $decoys = Target::decoysFromLocations(Location::pickUnused(4, array($target->location)));
         // create the experiment, attach target and decoys
         $experiment = Experiment::fromTargetAndDecoys($target, $decoys);
         $experiment->start_date = $request->start_date;

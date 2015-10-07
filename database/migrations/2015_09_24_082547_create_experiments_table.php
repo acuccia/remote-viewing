@@ -13,6 +13,7 @@ class CreateExperimentsTable extends Migration
     public function up()
     {
         Schema::create('experiments', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->increments('id');
             $table->timestamp('start_date');
             $table->timestamps();

@@ -14,15 +14,18 @@
 
         <tr>
             <th class="col-md-2">Date</th>
+            <th class="col-md-1"></th>
             <th class="col-md-2">Target</th>
-            <th class="col-md-7">Decoys</th>
+            <th class="col-md-6">Decoys</th>
             <th class="col-md-1"></th>
         </tr>
 
     @foreach($experiments as $experiment)
         <tr>
             <td>
-                {{ $experiment->start_date->diffForHumans() }}
+                {{ $experiment->start_date->format('D n/j/y g:i a') }}
+            </td>
+            <td>
                 <a href="{{ action('ExperimentsController@edit', $experiment->id) }}" class="btn btn-primary">
                     Edit
                 </a>

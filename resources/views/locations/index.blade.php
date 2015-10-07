@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="row">
-    <h1 class="col-md-4 col-md-offset-4 text-center">Locations</h1>
+    <h1 class="col-md-4 col-md-offset-4 text-center">Locations ({{ $locations->count() }}</h1>
     <h1 class="col-md-4 text-right">
         <a href="locations/create" class="btn btn-primary">New</a>
     </h1>

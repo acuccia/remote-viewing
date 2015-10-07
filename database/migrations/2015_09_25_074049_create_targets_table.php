@@ -13,6 +13,7 @@ class CreateTargetsTable extends Migration
     public function up()
     {
         Schema::create('targets', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->increments('id');
             $table->integer('location_id')->unsigned();
             $table->integer('experiment_id')->unsigned();
