@@ -10,8 +10,4 @@
     @include('trials.evaluate')
 @elseif($active->stage == 'confirm')
     @include('trials.confirm')
-@elseif($active->stage == 'embargo')
-    @include('trials.embargo')
-@elseif($active->stage == 'reveal')
-    @include('trials.reveal')
 @endif

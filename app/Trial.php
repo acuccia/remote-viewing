@@ -60,6 +60,13 @@ class Trial extends Model
         return false;
     }
 
+    public function expiration()
+    {
+        $expiration = $this->experiment->start_date->copy();
+        $expiration->addHours(24);
+        return $expiration;
+    }
+
     public function success()
     {
         return $this->selections->contains($this->experiment->getTarget()->id);

@@ -29,27 +29,45 @@
                                 </div>
                             </div>
                             <div class="panel-body">
-                                <div class="well well-sm bg-info">{{ $trial->experiment->getTarget()->location->name }}</div>
+                                @if ($trial->expired())
+                                    <div class="well well-sm bg-info">
+                                        {{ $trial->experiment->getTarget()->location->name }}
+                                    </div>
+                                @else
+                                    <div class="well well-sm bg-info">
+                                        Target will be revealed {{ $trial->expiration()->diffForHumans() }}
+                                    </div>
+                                @endif
                                 <hr />
                                 @foreach($trial->experiment->targets as $t)
                                     @if ($trial->selections->contains($t->id))
-                                        @if ($t->is_decoy)
-                                            <p class="alert-danger">{{ $t->location->name }}</p>
+                                        @if ($trial->expired())
+                                            @if ($t->is_decoy)
+                                                <p class="alert-danger">{{ $t->location->name }}</p>
+                                            @else
+                                                <p class="alert-success">{{ $t->location->name }}</p>
+                                            @endif
                                         @else
-                                            <p class="alert-success">{{ $t->location->name }}</p>
+                                            <p class="alert-info">{{ $t->location->name }}</p>
                                         @endif
                                     @else
                                         <p>{{ $t->location->name }}</p>
                                     @endif
                                 @endforeach
                                 <hr />
-                                @if ($trial->success())
-                                    <h3 class="text-center success">
-                                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-                                    </h3>
+                                @if ($trial->expired())
+                                    @if ($trial->success())
+                                        <h3 class="text-center success">
+                                            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                        </h3>
+                                    @else
+                                        <h3 class="text-center danger">
+                                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                        </h3>
+                                    @endif
                                 @else
-                                    <h3 class="text-center danger">
-                                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                    <h3 class="text-center">
+                                        <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
                                     </h3>
                                 @endif
                             </div>

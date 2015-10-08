@@ -8,20 +8,16 @@
         <p class="text-center"><a href="/auth/login">Log in</a> or <a href="/auth/register">Create an Account</a> to start viewing!</p>
     @endif
 
-
-    <div class="jumbotron">
-        <p>
-            This project aims to test the technique of <a href="#remoteviewing">Remote Viewing</a>
-            through a series of trials in which the viewer attempts to select a particular
-            <a href="#target">target</a> from amongst a group of non-target locations. The
-            hypothesis is that a remote viewer will be able to pick out the
-            <a href="#target">target</a> better than would be predicted by chance alone.
-        </p>
-    </div>
-
     <div>
         <h2 class="text-center">Overview</h2>
 
+        <p class="lead">
+            This project aims to test the technique of <a href="#remoteviewing">Remote Viewing</a>
+            through a series of trials in which the viewer attempts to select a real
+            <a href="#target">target</a> from amongst a group of possible targets. The
+            hypothesis is that a remote viewer will be able to pick out the actual
+            <a href="#target">target</a> better than would be predicted by chance alone.
+        </p>
         <p class="lead">
             In this experiment, you will be given one test each day for ten days. The test will consist
             of trying to pick out the correct <a href="#target"></a>target</a> from amongst five

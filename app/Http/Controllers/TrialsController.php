@@ -15,25 +15,9 @@ class TrialsController extends Controller
         $trial = Trial::findOrFail($request->trialId);
 
         if ($trial->expired()) {
-            if ($trial->stage != 'reveal' && $trial->stage != 'embargo') {
-                // remove this trial from the user - they took too long
-                $trial->delete();
-                Trial::refreshTrials($request->user());
-                Session::flash('message', 'The last trial has expired. Please try the next one.');
-                return redirect('/home');
-            }
-        }
-
-        if ($trial->revealed) {
-            // don't allow any previous stages if target was already revealed
-            $trial->stage = 'reveal';
-
-            // posting from the reveal stage, means they
-            // want the next experiment
-            if ($request->stage == 'reveal') {
-                $trial->complete = true;
-            }
-            $trial->save();
+            $trial->delete();
+            Trial::refreshTrials($request->user());
+            Session::flash('message', 'The last trial has expired. Please try the next one.');
             return redirect('/home');
         }
 
@@ -66,20 +50,10 @@ class TrialsController extends Controller
                     $trial->stage = 'evaluate';
                     $trial->save();
                 } else if ($request->Confirm) {
-                    if ($trial->expired()) {
-                        $trial->stage = 'reveal';
-                    } else {
-                        $trial->stage = 'embargo';
-                    }
+                    $trial->complete = true;
                     $trial->save();
                 }
                 return redirect('/home');
-
-            case 'reveal':
-                $trial->complete = true;
-                $trial->save();
-                return redirect('/home');
-
         }
     }
 
