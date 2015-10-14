@@ -11,9 +11,14 @@
 |
 */
 
+use Illuminate\Support\Facades\Mail;
+
+Route::get('trials/{id}', 'TrialsController@show');
+
 Route::get('/about', 'PagesController@about');
 Route::get('/', 'PagesController@home');
 Route::get('/home', 'PagesController@home');
+Route::get('/statistics', 'PagesController@statistics');
 
 Route::post('/home', 'TrialsController@walkthrough');
 Route::get('/history', 'TrialsController@history');

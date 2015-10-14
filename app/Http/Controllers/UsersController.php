@@ -86,4 +86,14 @@ class UsersController extends Controller
     {
         //
     }
+
+    public function welcomeAll()
+    {
+        $users = User::all();
+        foreach($users as $user) {
+            $user->welcome();
+        }
+
+        return redirect('users');
+    }
 }

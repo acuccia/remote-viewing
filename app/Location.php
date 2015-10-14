@@ -27,7 +27,10 @@ class Location extends Model
         return $locations;
     }
 
-
+    public function selections()
+    {
+        return $this->hasManyThrough(\App\Selection::class, \App\Target::class);
+    }
 
     public function targets()
     {

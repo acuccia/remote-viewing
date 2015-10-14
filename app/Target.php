@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use App\Location;
 
@@ -48,4 +49,14 @@ class Target extends Model
         return $this->belongsTo(\App\Experiment::class);
     }
 
+    public function expiredExperiment()
+    {
+        return $this->belongsTo(\App\Experiment::class, 'experiment_id')
+            ->where('start_date', '<', Carbon::now()->subDay());
+    }
+
+    public function selections()
+    {
+        return $this->hasMany(Selection::class);
+    }
 }

@@ -13,15 +13,19 @@
     <table class="table">
 
         <tr>
+            <th class="col-md-1">ID</th>
             <th class="col-md-2">Date</th>
             <th class="col-md-1"></th>
             <th class="col-md-2">Target</th>
-            <th class="col-md-6">Decoys</th>
+            <th class="col-md-5">Coordinates</th>
             <th class="col-md-1"></th>
         </tr>
 
     @foreach($experiments as $experiment)
         <tr>
+            <td>
+                {{ $experiment->id }}
+            </td>
             <td>
                 {{ $experiment->start_date->format('D n/j/y g:i a') }}
             </td>
@@ -33,15 +37,20 @@
             <td>
                 {{--For some reason I can't get target as object, just as collection, so I have to iterate :/  --}}
                 @foreach($experiment->target as $target)
-                    <a href="{{ $target->location->link }}">
+                    <a href="{{ $target->location->link }}" target="_blank">
                         {{ $target->location->name }}
                     </a>
                 @endforeach
             </td>
             <td>
-                @foreach($experiment->decoys as $decoy)
-                    <div class="col-md-3"><a href="{{ $decoy->location->link }}">{{ $decoy->location->name }}</a></div>
+                {{--For some reason I can't get target as object, just as collection, so I have to iterate :/  --}}
+                @foreach($experiment->target as $target)
+                        {{ $target->coordinates }}
                 @endforeach
+                {{--// don't show the decoys - "bleedthrough?"--}}
+                {{--@foreach($experiment->decoys as $decoy)--}}
+                    {{--<div class="col-md-3"><a href="{{ $decoy->location->link }}">{{ $decoy->location->name }}</a></div>--}}
+                {{--@endforeach--}}
             </td>
             <td>
                 {!! Form::open(['url' => 'experiments/' . $experiment->id, 'method' => 'DELETE']) !!}

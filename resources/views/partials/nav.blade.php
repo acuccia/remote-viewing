@@ -10,10 +10,19 @@
             @if (Auth::check())
                 <li><a href="{{ action('TrialsController@history') }}">History</a></li>
             @endif
+            <li><a href="{{ action('PagesController@statistics') }}">Statistics</a></li>
             @if (Auth::check() and Auth::user()->is_admin)
-                <li><a href="{{ action('UsersController@index') }}">Users</a></li>
-                <li><a href="{{ action('LocationsController@index') }}">Locations</a></li>
-                <li><a href="{{ action('ExperimentsController@index') }}">Experiments</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Admin <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ action('UsersController@index') }}">Users</a></li>
+                        <li><a href="{{ action('LocationsController@index') }}">Locations</a></li>
+                        <li><a href="{{ action('ExperimentsController@index') }}">Experiments</a></li>
+                    </ul>
+                </li>
             @endif
         </ul>
         <ul class="nav navbar-nav navbar-right">

@@ -51,6 +51,7 @@ class LocationsController extends Controller
 
         Location::create($request->all());
         Session::flash('message', 'Location Created');
+
         return redirect()->action('LocationsController@create');
     }
 

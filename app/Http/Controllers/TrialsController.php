@@ -6,10 +6,21 @@ use App\Trial;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 
 class TrialsController extends Controller
 {
+    public function show($id)
+    {
+        if ( ! Auth::user()->is_admin) {
+            return redirect('home');
+        }
+
+        $trial = Trial::findOrFail($id);
+        return view('trials.show')->with('trial', $trial);
+    }
+
     public function walkthrough(Request $request)
     {
         $trial = Trial::findOrFail($request->trialId);

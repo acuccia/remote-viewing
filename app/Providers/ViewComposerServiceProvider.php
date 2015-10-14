@@ -53,15 +53,33 @@ class ViewComposerServiceProvider extends ServiceProvider
 
             if ($history->count() > 0) {
                 // stats
-                $totalTrials = $user->trials()
-                    ->whereComplete(true)
-                    ->count();
-                $totalSelections = $user->selections()->count();
-                $totalTargets = $totalTrials * 5;
-                $totalHits = $user->trials()->has('hits', 1)->count();
-
-                $chance = ($totalSelections / $totalTargets) * 100; // as a percentage
-                $actual = ($totalHits / $totalTrials) * 100; // as a percentage
+                $totalTrials = 0;
+                $totalSelections = 0;
+                $totalTargets = 0;
+                $totalHits = 0;
+                foreach($history as $trial) {
+                    if ($trial->expired()) {
+                        // only do stats on trials that have expired and
+                        // thus have had the target and correct answers revealed
+                        $totalTrials++;
+                        $totalTargets += $trial->experiment->targets()->count();
+                        $totalSelections += $trial->selections()->count();
+                        if ($trial->success()) {
+                            $totalHits++;
+                        }
+                    }
+                }
+//
+//                $totalTrials = $user->trials()
+//                    ->whereComplete(true)
+//                    ->count();
+//                $totalSelections = $user->selections()->count();
+//                $totalTargets = $totalTrials * 5;
+//                $totalHits = $user->trials()->has('hits', 1)->count();
+                if ($totalTrials && $totalTargets) {
+                    $chance = ($totalSelections / $totalTargets) * 100; // as a percentage
+                    $actual = ($totalHits / $totalTrials) * 100; // as a percentage
+                }
             }
 
             $view->with(compact('history', 'chance', 'actual'));
