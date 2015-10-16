@@ -94,7 +94,6 @@ class User extends Model implements AuthenticatableContract,
         Mail::send('emails.remind', [], function ($message) use ($user) {
             $message->from('anne.basile@gmail.com', 'Remote Viewing');
             $message->to($user->email)->subject('Remote Viewing Reminder');
-            $message->bcc('acuccia@gmail.com');
         });
 
     }

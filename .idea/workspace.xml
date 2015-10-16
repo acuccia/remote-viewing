@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea9316d6-bf49-4808-83c1-c2aed9de8964" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/emails/remind.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/trials/show.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/pages/statistics.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/emails/welcome.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Location.php" afterPath="$PROJECT_DIR$/app/Location.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/LocationsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/LocationsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Selection.php" afterPath="$PROJECT_DIR$/app/Selection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Target.php" afterPath="$PROJECT_DIR$/app/Target.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TrialsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TrialsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/experiments/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/experiments/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/locations/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/locations/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/password.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/password.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="remoteviewing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/experiments/index.blade.php">
+      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44309926" vertical-offset="186" max-vertical-offset="1725">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="826">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,13 +92,13 @@
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/nav.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/users/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
         <option value="$PROJECT_DIR$/app/Location.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/app/Target.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/statistics.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/experiments/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
       </list>
     </option>
   </component>
@@ -193,39 +169,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="remoteviewing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="remoteviewing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="remoteviewing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="remoteviewing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,7 +249,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21894005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21894005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -338,483 +282,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/emails/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3062954" vertical-offset="0" max-vertical-offset="897">
-          <caret line="11" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1444367865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444367865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444367865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444367865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444367865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444367865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444367865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444367865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444367865000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444367865000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16585957" vertical-offset="18033" max-vertical-offset="26427">
-          <caret line="824" column="23" selection-start-line="824" selection-start-column="23" selection-end-line="824" selection-end-column="23" />
-          <folding>
-            <marker date="1443072938000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" An Application is the container for a collection of commands. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Constructor. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Runs the current application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Runs the current application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Set a helper set to be used with the command. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Get the helper set associated with the command. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Set an input definition set to be used with this application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Gets the InputDefinition related to this Application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Gets the help message. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Sets whether to catch exceptions or not during commands execution. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Sets whether to automatically exit after a command execution or not. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Gets the name of the application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Sets the application name. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Gets the application version. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Sets the application version. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns the long version of the application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Registers a new command. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Adds an array of command objects. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Adds a command object. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns a registered command by name or alias. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns true if the command exists, false otherwise. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns an array of all unique namespaces used by currently registered commands. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Finds a registered namespace by a name or an abbreviation. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Finds a command by name or alias. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Gets the commands (registered in the given namespace if provided). ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns an array of possible abbreviations given a set of names. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns a text representation of the Application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns an XML representation of the Application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Renders a caught exception. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Tries to figure out the terminal width in which this application runs. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Tries to figure out the terminal height in which this application runs. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Tries to figure out the terminal dimensions based on the current environment. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Sets terminal dimensions. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Configures the input and output instances based on the user arguments and options. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Runs the current command. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Gets the name of the command based on input. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Gets the default input definition. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Gets the default commands that should always be available. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Gets the default helper set with the helpers that should always be available. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Runs and parses stty -a if it's available, suppressing any error output. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Runs and parses mode CON if it's available, suppressing any error output. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns abbreviated suggestions in string format. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns the namespace part of the command name. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Finds alternative of $name among $collection, ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Sets the default Command name. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns all namespaces of the command name. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Input/ArgvInput.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.297821" vertical-offset="6028" max-vertical-offset="8096">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1443072938000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" ArgvInput represents an input coming from the CLI arguments. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Constructor. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Processes command line arguments. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Parses a short option. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Parses a short option set. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Parses a long option. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Parses an argument. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Adds a short option value. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Adds a long option value. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns the first argument from the raw parameters (not parsed). ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns true if the raw parameters (not parsed) contain a value. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns the value of a raw option (not parsed). ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Returns a stringified representation of the args passed to the command. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Scheduling/ScheduleRunCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91646487" vertical-offset="508" max-vertical-offset="1564">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-          <folding>
-            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder=" The console command name. ..." />
-            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder=" The console command description. ..." />
-            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder=" The schedule instance. ..." />
-            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder=" Create a new command instance. ..." />
-            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder=" Execute the console command. ..." />
-            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58474576" vertical-offset="1219" max-vertical-offset="5934">
-          <caret line="81" column="72" selection-start-line="81" selection-start-column="72" selection-end-line="81" selection-end-column="72" />
-          <folding>
-            <marker date="1443072938000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" The application implementation. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" The event dispatcher implementation. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" The Artisan application instance. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" The bootstrap classes for the application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Create a new console kernel instance. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Define the application's command schedule. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Run the console application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Terminate the application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Define the application's command schedule. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Run an Artisan console command by name. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Queue the given console command. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Get all of the commands registered with the console. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Get the output for the last run command. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Bootstrap the application for HTTP requests. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Get the Artisan application instance. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Get the bootstrap classes for the application. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Report the exception to the exception handler. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Report the exception to the exception handler. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/emails/password.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="826">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordBroker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6234234" vertical-offset="2092" max-vertical-offset="5819">
-          <caret line="111" column="32" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
-          <folding>
-            <marker date="1443072938000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" The password token repository. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" The user provider implementation. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" The mailer instance. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" The view of the password reset link e-mail. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" The custom password validator callback. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Create a new password broker instance. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Send a password reset link to a user. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Send the password reset link via e-mail. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Reset the password for the given token. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Validate a password reset for the given credentials. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Set a custom password validator. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Determine if the passwords match for the request. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Determine if the passwords are valid for the request. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Get the user for the given credentials. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder=" Get the password reset token repository implementation. ..." />
-            <marker date="1443072938000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Mail/Mailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3062954" vertical-offset="0" max-vertical-offset="874">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41525424" vertical-offset="416" max-vertical-offset="1242">
-          <caret line="33" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444420697000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5290557" vertical-offset="0" max-vertical-offset="851">
@@ -1242,34 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63801455" vertical-offset="922" max-vertical-offset="2300">
-          <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
-          <folding>
-            <marker date="1444601209000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder=" The database table used by the model. ..." />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder=" The attributes that are mass assignable. ..." />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder=" The attributes excluded from the model's JSON form. ..." />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder=" All the selections made by the user in all the trials ..." />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1444601209000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.7639227" vertical-offset="23" max-vertical-offset="5313">
@@ -1567,8 +1006,1002 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/experiments/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44309926" vertical-offset="186" max-vertical-offset="1725">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.33414045" vertical-offset="0" max-vertical-offset="1725">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444805694000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6833542" vertical-offset="1478" max-vertical-offset="2277">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <marker date="1444947949000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder=" The database table used by the model. ..." />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder=" The attributes that are mass assignable. ..." />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder=" The attributes excluded from the model's JSON form. ..." />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder=" All the selections made by the user in all the trials ..." />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444947949000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="826">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-82.64649" vertical-offset="68266" max-vertical-offset="69092">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="826">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.69854724" vertical-offset="577" max-vertical-offset="1403">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.44431" vertical-offset="8627" max-vertical-offset="9453">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1444339302000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" ClassLoader implements a PSR-0 class loader ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" @param array $classMap Class to filename map ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Registers a set of PSR-0 directories for a given prefix, either ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Registers a set of PSR-4 directories for a given namespace, either ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Registers a set of PSR-0 directories for a given prefix, ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Registers a set of PSR-4 directories for a given namespace, ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Turns on searching the include path for class files. ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Can be used to check if the autoloader uses the include path to check ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Turns off searching the prefix and fallback directories for classes ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Should class lookup fail if not found in the current class map? ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Registers this instance as an autoloader. ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Unregisters this instance as an autoloader. ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Loads the given class or interface. ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Finds the path to the file where the class is defined. ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder=" Scope isolated include. ..." />
+            <marker date="1444339302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/installed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.737288" vertical-offset="14651" max-vertical-offset="77004">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;vlucas/phpdotenv&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Dotenv&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Vance Lucas&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/var-dumper&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/phpunit-bridge&quot;: &quot;~2.7&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-symfony_debug&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\VarDumper\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Nicolas Grekas&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/translation&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/config&quot;: &quot;&lt;2.7&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;psr/log&quot;: &quot;~1.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;psr/log&quot;: &quot;To use logging capability in translator&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\Translation\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/routing&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/config&quot;: &quot;&lt;2.7&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;doctrine/annotations&quot;: &quot;~1.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;doctrine/annotations&quot;: &quot;For using the annotation loader&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\Routing\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/process&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/phpunit-bridge&quot;: &quot;~2.7&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\Process\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;psr/log&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Psr\\Log\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;PHP-FIG&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/debug&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/http-kernel&quot;: &quot;&gt;=2.3,&lt;2.3.24|~2.4.0|&gt;=2.5,&lt;2.5.9|&gt;=2.6,&lt;2.6.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/class-loader&quot;: &quot;~2.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\Debug\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/http-foundation&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/expression-language&quot;: &quot;~2.4&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\HttpFoundation\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/event-dispatcher&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;psr/log&quot;: &quot;~1.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/dependency-injection&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\EventDispatcher\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/http-kernel&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/config&quot;: &quot;&lt;2.7&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/browser-kit&quot;: &quot;~2.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/browser-kit&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\HttpKernel\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/finder&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/phpunit-bridge&quot;: &quot;~2.7&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\Finder\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/dom-crawler&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/css-selector&quot;: &quot;~2.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/css-selector&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\DomCrawler\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/css-selector&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/phpunit-bridge&quot;: &quot;~2.7&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\CssSelector\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Jean-François Simon&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/console&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;psr/log&quot;: &quot;~1.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;psr/log&quot;: &quot;For using the console logger&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\Console\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;swiftmailer/swiftmailer&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;mockery/mockery&quot;: &quot;~0.9.1,&lt;0.9.4&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;5.4-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Chris Corbyn&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;jakub-onderka/php-console-color&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;jakub-onderka/php-code-style&quot;: &quot;1.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;JakubOnderka\\PhpConsoleColor&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Jakub Onderka&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;jakub-onderka/php-console-highlighter&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;jakub-onderka/php-console-color&quot;: &quot;~0.1&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;jakub-onderka/php-code-style&quot;: &quot;~1.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;JakubOnderka\\PhpConsoleHighlighter&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Jakub Onderka&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;dnoegel/php-xdg-base-dir&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;@stable&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;XdgBaseDir\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;nikic/php-parser&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-tokenizer&quot;: &quot;*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.4-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Nikita Popov&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;psy/psysh&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dnoegel/php-xdg-base-dir&quot;: &quot;0.1&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;fabpot/php-cs-fixer&quot;: &quot;~1.5&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-pcntl&quot;: &quot;Enabling the PCNTL extension makes PsySH a lot happier :)&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-develop&quot;: &quot;0.6.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Psy\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Justin Hileman&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;nesbot/carbon&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Carbon&quot;: &quot;src&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Brian Nesbitt&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;mtdowling/cron-expression&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;4.*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Cron&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Michael Dowling&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;monolog/monolog&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;psr/log-implementation&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;aws/aws-sdk-php&quot;: &quot;^2.4.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;aws/aws-sdk-php&quot;: &quot;Allow sending log messages to AWS services like DynamoDB&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.16.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Monolog\\&quot;: &quot;src/Monolog&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Jordi Boggiano&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;jeremeamia/SuperClosure&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;nikic/php-parser&quot;: &quot;~1.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;codeclimate/php-test-reporter&quot;: &quot;~0.1.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.1-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;SuperClosure\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Jeremy Lindblom&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;doctrine/inflector&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;4.*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.0.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Doctrine\\Common\\Inflector\\&quot;: &quot;lib/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Roman Borschel&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Benjamin Eberlei&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Guilherme Blanco&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Jonathan Wage&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Johannes Schmitt&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;danielstjules/stringy&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-mbstring&quot;: &quot;*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Stringy\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Daniel St. Jules&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;classpreloader/classpreloader&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;nikic/php-parser&quot;: &quot;~1.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.0-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ClassPreloader\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Michael Dowling&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Graham Campbell&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;laravel/framework&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;classpreloader/classpreloader&quot;: &quot;~2.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;illuminate/auth&quot;: &quot;self.version&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;aws/aws-sdk-php&quot;: &quot;~3.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;aws/aws-sdk-php&quot;: &quot;Required to use the SQS queue driver and SES mail driver (~3.0).&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;5.1-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Illuminate\\&quot;: &quot;src/Illuminate/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Taylor Otwell&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;fzaninotto/faker&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-intl&quot;: &quot;*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.5.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Faker\\&quot;: &quot;src/Faker/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;François Zaninotto&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;hamcrest/hamcrest-php&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;cordoval/hamcrest-php&quot;: &quot;*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/php-file-iterator&quot;: &quot;1.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;mockery/mockery&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;hamcrest/hamcrest-php&quot;: &quot;~1.1&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;0.9.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Mockery&quot;: &quot;library/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Pádraic Brady&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Dave Marshall&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;sebastian/version&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;sebastian/global-state&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-uopz&quot;: &quot;*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.0-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;sebastian/recursion-context&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.4&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.0.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Jeff Welch&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Adam Harvey&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;sebastian/exporter&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.4&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.2.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Jeff Welch&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Volker Dusch&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Bernhard Schussek&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Adam Harvey&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;sebastian/environment&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.4&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.3.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;sebastian/diff&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.3-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Kore Nordmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;sebastian/comparator&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.4&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.2.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Jeff Welch&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Volker Dusch&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Bernhard Schussek&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;symfony/yaml&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;symfony/phpunit-bridge&quot;: &quot;~2.7&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.7-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Symfony\\Component\\Yaml\\&quot;: &quot;&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Fabien Potencier&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Symfony Community&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;doctrine/instantiator&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3,&lt;8.0-DEV&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;athletic/athletic&quot;: &quot;~0.1.8&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.0.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Doctrine\\Instantiator\\&quot;: &quot;src/Doctrine/Instantiator/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Marco Pivetta&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;phpdocumentor/reflection-docblock&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dflydev/markdown&quot;: &quot;~1.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.0.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Mike van Riel&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;phpspec/prophecy&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;doctrine/instantiator&quot;: &quot;^1.0.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpspec/phpspec&quot;: &quot;~2.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.4.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Prophecy\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Konstantin Kudryashov&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Marcello Duarte&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;phpunit/php-text-template&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;phpunit/phpunit-mock-objects&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;doctrine/instantiator&quot;: &quot;^1.0.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.4&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-soap&quot;: &quot;*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.3.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;phpunit/php-timer&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;phpunit/php-token-stream&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-tokenizer&quot;: &quot;*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.2&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.4-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;phpunit/php-file-iterator&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.4.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;phpunit/php-code-coverage&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.3&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-xdebug&quot;: &quot;&gt;=2.1.4&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-dom&quot;: &quot;*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.2.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;phpspec/php-diff&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Diff&quot;: &quot;lib/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Chris Boulton&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;phpspec/phpspec&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;doctrine/instantiator&quot;: &quot;^1.0.1&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;behat/behat&quot;: &quot;^3.0.11&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpspec/nyan-formatters&quot;: &quot;~1.0 – Adds Nyan formatters&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;2.2.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;PhpSpec&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Konstantin Kudryashov&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Marcello Duarte&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;laravelcollective/html&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;illuminate/http&quot;: &quot;5.1.*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;mockery/mockery&quot;: &quot;~0.9&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Collective\\Html\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Taylor Otwell&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Adam Engebretson&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;phpunit/phpunit&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-dom&quot;: &quot;*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/php-invoker&quot;: &quot;~1.1&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;4.8.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Sebastian Bergmann&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;league/flysystem&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.4.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;league/flysystem-sftp&quot;: &quot;&lt;1.0.6&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-fileinfo&quot;: &quot;*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-fileinfo&quot;: &quot;Required for MimeType&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.1-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;League\\Flysystem\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Frank de Jonge&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;laracasts/generators&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;illuminate/support&quot;: &quot;~5.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpspec/phpspec&quot;: &quot;~2.1&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Laracasts\\Generators\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Jeffrey Way&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;guzzlehttp/promises&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.5.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.0-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;GuzzleHttp\\Promise\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Michael Dowling&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;psr/http-message&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.3.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.0.x-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;Psr\\Http\\Message\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;PHP-FIG&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;guzzlehttp/psr7&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.4.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;psr/http-message-implementation&quot;: &quot;1.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;phpunit/phpunit&quot;: &quot;~4.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;1.0-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;GuzzleHttp\\Psr7\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Michael Dowling&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;guzzlehttp/guzzle&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;zip&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;guzzlehttp/promises&quot;: &quot;~1.0&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;ext-curl&quot;: &quot;*&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;dev-master&quot;: &quot;6.1-dev&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;GuzzleHttp\\&quot;: &quot;src/&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Michael Dowling&quot;...}" />
+            <marker date="1444339296000" expanded="true" signature="-1:-1" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443072939000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="826">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
